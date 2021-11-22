@@ -1,19 +1,17 @@
 //
-//  ViewController.swift
+//  MainFlowNavigationController.swift
 //  Coordinator
 //
 //  Created by Евгений Самарин on 22.11.2021.
 //
 
-import UIKit
+import Foundation
 
-class ViewController: UIViewController {
+class MainFlowNavigationController: FlowNavigationController {
+
+    // MARK: - Lifecycle Methods
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
-
-
 }
-

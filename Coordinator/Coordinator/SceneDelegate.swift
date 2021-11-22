@@ -11,11 +11,17 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
 
+    private let dependencies: Dependencies = DependeciesImpl()
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         guard let windowScene = (scene as? UIWindowScene) else { return }
 
         let window = UIWindow(windowScene: windowScene)
+
+        let factory = dependencies.flowFactory
+        let (vc, _) = factory.main()
+        window.rootViewController = vc
+
         self.window = window
         window.makeKeyAndVisible()
     }
