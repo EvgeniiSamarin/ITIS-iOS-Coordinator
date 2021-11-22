@@ -9,5 +9,8 @@ import Foundation
 import UIKit
 
 protocol FlowFactory {
+
+    // MARK: - Instance Methods
+
     func main() -> (UIViewController, MainFlow)
 }

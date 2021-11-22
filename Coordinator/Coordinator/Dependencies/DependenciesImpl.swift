@@ -8,6 +8,8 @@
 import Foundation
 
 class DependeciesImpl: Dependencies {
+
+    // MARK: - Instance Properties
     
     lazy var moduleFactory: ModuleFactory = ModuleFactoryImpl(dependencies: self)
     lazy var flowFactory: FlowFactory = FlowFactoryImpl(dependencies: self)
