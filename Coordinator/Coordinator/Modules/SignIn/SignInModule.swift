@@ -6,3 +6,17 @@
 //
 
 import Foundation
+
+protocol SignInModule: AnyObject {
+    var signIn: (() -> ())? { get set }
+}
+
+protocol SignInView: View { }
+
+protocol SignInPresenterForView: AnyObject {
+    func goToJokeScreen()
+}
+
+protocol SignInInteractor: Interactor { }
+
+protocol SignInInteractorDelegate: AnyObject { }
