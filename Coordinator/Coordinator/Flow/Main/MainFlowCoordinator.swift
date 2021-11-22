@@ -1,11 +1,11 @@
 //
-//  MainflowCoordinator.swift
+//  MainFlowCoordinator.swift
 //  Coordinator
 //
 //  Created by Евгений Самарин on 22.11.2021.
 //
 
-import Foundation
+import UIKit
 
 class MainFlowCoordinator: Coordinator<FlowNavigationController>, MainFlow {
 
@@ -21,4 +21,17 @@ class MainFlowCoordinator: Coordinator<FlowNavigationController>, MainFlow {
 
     override func start() {
     }
+
+    private func initialVC() -> UIViewController {
+        let (vc, modules) = modules.startApp()
+
+        return vc
+    }
+//    private func signIn() -> UIViewController {
+//        let (vc, module) = self.modules.startApp()
+//    }
+//
+//    private func signUp() -> UIViewController {
+//
+//    }
 }
