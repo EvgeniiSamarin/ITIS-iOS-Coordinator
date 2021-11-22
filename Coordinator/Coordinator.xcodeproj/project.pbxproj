@@ -20,6 +20,23 @@
 		7DFA4BFF274BF2D300718515 /* FlowHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFA4BFE274BF2D300718515 /* FlowHolder.swift */; };
 		7DFA4C01274BF2F900718515 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFA4C00274BF2F900718515 /* Coordinator.swift */; };
 		7DFA4C03274BF35A00718515 /* FlownavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFA4C02274BF35A00718515 /* FlownavigationController.swift */; };
+		7DFA4C06274BF43B00718515 /* Dependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFA4C05274BF43B00718515 /* Dependencies.swift */; };
+		7DFA4C08274BF46100718515 /* DependenciesImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFA4C07274BF46100718515 /* DependenciesImpl.swift */; };
+		7DFA4C13274BF5A400718515 /* StartModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFA4C12274BF5A400718515 /* StartModule.swift */; };
+		7DFA4C18274BF5CA00718515 /* JokeModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFA4C17274BF5CA00718515 /* JokeModule.swift */; };
+		7DFA4C1D274BF5F000718515 /* SignUpModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFA4C1C274BF5F000718515 /* SignUpModule.swift */; };
+		7DFA4C22274BF61B00718515 /* SignInModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFA4C21274BF61B00718515 /* SignInModule.swift */; };
+		7DFA4C24274BF70000718515 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFA4C23274BF70000718515 /* StartViewController.swift */; };
+		7DFA4C27274BF7A200718515 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 7DFA4C26274BF7A200718515 /* SnapKit */; };
+		7DFA4C29274BF9CC00718515 /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFA4C28274BF9CC00718515 /* Interactor.swift */; };
+		7DFA4C2B274BFA2500718515 /* StartPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFA4C2A274BFA2500718515 /* StartPresenter.swift */; };
+		7DFA4C30274BFBBB00718515 /* ModuleFactoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFA4C2F274BFBBB00718515 /* ModuleFactoryImpl.swift */; };
+		7DFA4C34274BFD7F00718515 /* MainFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFA4C33274BFD7F00718515 /* MainFlow.swift */; };
+		7DFA4C36274BFD9600718515 /* MainFlowNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFA4C35274BFD9600718515 /* MainFlowNavigationController.swift */; };
+		7DFA4C38274BFDCD00718515 /* MainflowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFA4C37274BFDCD00718515 /* MainflowCoordinator.swift */; };
+		7DFA4C3A274BFDFB00718515 /* FlowFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFA4C39274BFDFB00718515 /* FlowFactory.swift */; };
+		7DFA4C3C274BFE0800718515 /* FlowFactoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFA4C3B274BFE0800718515 /* FlowFactoryImpl.swift */; };
+		7DFA4C3E274C005000718515 /* ModuleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFA4C3D274C005000718515 /* ModuleFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +55,22 @@
 		7DFA4BFE274BF2D300718515 /* FlowHolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowHolder.swift; sourceTree = "<group>"; };
 		7DFA4C00274BF2F900718515 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		7DFA4C02274BF35A00718515 /* FlownavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlownavigationController.swift; sourceTree = "<group>"; };
+		7DFA4C05274BF43B00718515 /* Dependencies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dependencies.swift; sourceTree = "<group>"; };
+		7DFA4C07274BF46100718515 /* DependenciesImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependenciesImpl.swift; sourceTree = "<group>"; };
+		7DFA4C12274BF5A400718515 /* StartModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartModule.swift; sourceTree = "<group>"; };
+		7DFA4C17274BF5CA00718515 /* JokeModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeModule.swift; sourceTree = "<group>"; };
+		7DFA4C1C274BF5F000718515 /* SignUpModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpModule.swift; sourceTree = "<group>"; };
+		7DFA4C21274BF61B00718515 /* SignInModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInModule.swift; sourceTree = "<group>"; };
+		7DFA4C23274BF70000718515 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		7DFA4C28274BF9CC00718515 /* Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interactor.swift; sourceTree = "<group>"; };
+		7DFA4C2A274BFA2500718515 /* StartPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartPresenter.swift; sourceTree = "<group>"; };
+		7DFA4C2F274BFBBB00718515 /* ModuleFactoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleFactoryImpl.swift; sourceTree = "<group>"; };
+		7DFA4C33274BFD7F00718515 /* MainFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainFlow.swift; sourceTree = "<group>"; };
+		7DFA4C35274BFD9600718515 /* MainFlowNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainFlowNavigationController.swift; sourceTree = "<group>"; };
+		7DFA4C37274BFDCD00718515 /* MainflowCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainflowCoordinator.swift; sourceTree = "<group>"; };
+		7DFA4C39274BFDFB00718515 /* FlowFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowFactory.swift; sourceTree = "<group>"; };
+		7DFA4C3B274BFE0800718515 /* FlowFactoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowFactoryImpl.swift; sourceTree = "<group>"; };
+		7DFA4C3D274C005000718515 /* ModuleFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DFA4C27274BF7A200718515 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +104,11 @@
 		7DFA4BD4274BEB5A00718515 /* Coordinator */ = {
 			isa = PBXGroup;
 			children = (
+				7DFA4C31274BFD2300718515 /* Flow */,
+				7DFA4C2C274BFB9A00718515 /* Factories */,
+				7DFA4C0A274BF4FC00718515 /* Modules */,
+				7DFA4C09274BF4BE00718515 /* Enum */,
+				7DFA4C04274BF42D00718515 /* Dependencies */,
 				7DFA4BEC274BEC0100718515 /* Extension */,
 				7DFA4BE9274BEBEC00718515 /* Base */,
 				7DFA4BD5274BEB5A00718515 /* AppDelegate.swift */,
@@ -128,6 +167,193 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		7DFA4C04274BF42D00718515 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				7DFA4C05274BF43B00718515 /* Dependencies.swift */,
+				7DFA4C07274BF46100718515 /* DependenciesImpl.swift */,
+			);
+			path = Dependencies;
+			sourceTree = "<group>";
+		};
+		7DFA4C09274BF4BE00718515 /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+		7DFA4C0A274BF4FC00718515 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				7DFA4C0E274BF57100718515 /* Start */,
+				7DFA4C0D274BF54F00718515 /* Joke */,
+				7DFA4C0C274BF53400718515 /* SignUp */,
+				7DFA4C0B274BF52D00718515 /* SignIn */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		7DFA4C0B274BF52D00718515 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				7DFA4C20274BF60B00718515 /* Presenter */,
+				7DFA4C1F274BF60400718515 /* Interactor */,
+				7DFA4C1E274BF5FE00718515 /* View */,
+				7DFA4C21274BF61B00718515 /* SignInModule.swift */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		7DFA4C0C274BF53400718515 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				7DFA4C1B274BF5E300718515 /* View */,
+				7DFA4C1A274BF5DD00718515 /* Interactor */,
+				7DFA4C19274BF5D500718515 /* Presenter */,
+				7DFA4C1C274BF5F000718515 /* SignUpModule.swift */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		7DFA4C0D274BF54F00718515 /* Joke */ = {
+			isa = PBXGroup;
+			children = (
+				7DFA4C16274BF5BC00718515 /* Presenter */,
+				7DFA4C15274BF5B500718515 /* Interactor */,
+				7DFA4C14274BF5AF00718515 /* View */,
+				7DFA4C17274BF5CA00718515 /* JokeModule.swift */,
+			);
+			path = Joke;
+			sourceTree = "<group>";
+		};
+		7DFA4C0E274BF57100718515 /* Start */ = {
+			isa = PBXGroup;
+			children = (
+				7DFA4C11274BF59300718515 /* View */,
+				7DFA4C10274BF58B00718515 /* Interactor */,
+				7DFA4C0F274BF57800718515 /* Presenter */,
+				7DFA4C12274BF5A400718515 /* StartModule.swift */,
+			);
+			path = Start;
+			sourceTree = "<group>";
+		};
+		7DFA4C0F274BF57800718515 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				7DFA4C2A274BFA2500718515 /* StartPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		7DFA4C10274BF58B00718515 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				7DFA4C28274BF9CC00718515 /* Interactor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		7DFA4C11274BF59300718515 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7DFA4C23274BF70000718515 /* StartViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7DFA4C14274BF5AF00718515 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7DFA4C15274BF5B500718515 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		7DFA4C16274BF5BC00718515 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		7DFA4C19274BF5D500718515 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		7DFA4C1A274BF5DD00718515 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		7DFA4C1B274BF5E300718515 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7DFA4C1E274BF5FE00718515 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7DFA4C1F274BF60400718515 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		7DFA4C20274BF60B00718515 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		7DFA4C2C274BFB9A00718515 /* Factories */ = {
+			isa = PBXGroup;
+			children = (
+				7DFA4C2F274BFBBB00718515 /* ModuleFactoryImpl.swift */,
+				7DFA4C39274BFDFB00718515 /* FlowFactory.swift */,
+				7DFA4C3B274BFE0800718515 /* FlowFactoryImpl.swift */,
+				7DFA4C3D274C005000718515 /* ModuleFactory.swift */,
+			);
+			path = Factories;
+			sourceTree = "<group>";
+		};
+		7DFA4C31274BFD2300718515 /* Flow */ = {
+			isa = PBXGroup;
+			children = (
+				7DFA4C32274BFD3800718515 /* Main */,
+			);
+			path = Flow;
+			sourceTree = "<group>";
+		};
+		7DFA4C32274BFD3800718515 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				7DFA4C33274BFD7F00718515 /* MainFlow.swift */,
+				7DFA4C35274BFD9600718515 /* MainFlowNavigationController.swift */,
+				7DFA4C37274BFDCD00718515 /* MainflowCoordinator.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,6 +370,9 @@
 			dependencies = (
 			);
 			name = Coordinator;
+			packageProductDependencies = (
+				7DFA4C26274BF7A200718515 /* SnapKit */,
+			);
 			productName = Coordinator;
 			productReference = 7DFA4BD2274BEB5A00718515 /* Coordinator.app */;
 			productType = "com.apple.product-type.application";
@@ -172,6 +401,9 @@
 				Base,
 			);
 			mainGroup = 7DFA4BC9274BEB5900718515;
+			packageReferences = (
+				7DFA4C25274BF7A200718515 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 7DFA4BD3274BEB5A00718515 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -198,16 +430,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DFA4C38274BFDCD00718515 /* MainflowCoordinator.swift in Sources */,
+				7DFA4C3E274C005000718515 /* ModuleFactory.swift in Sources */,
+				7DFA4C18274BF5CA00718515 /* JokeModule.swift in Sources */,
+				7DFA4C3C274BFE0800718515 /* FlowFactoryImpl.swift in Sources */,
+				7DFA4C3A274BFDFB00718515 /* FlowFactory.swift in Sources */,
+				7DFA4C2B274BFA2500718515 /* StartPresenter.swift in Sources */,
+				7DFA4C30274BFBBB00718515 /* ModuleFactoryImpl.swift in Sources */,
+				7DFA4C06274BF43B00718515 /* Dependencies.swift in Sources */,
 				7DFA4BF6274BED4200718515 /* Presenter.swift in Sources */,
+				7DFA4C13274BF5A400718515 /* StartModule.swift in Sources */,
 				7DFA4C03274BF35A00718515 /* FlownavigationController.swift in Sources */,
+				7DFA4C24274BF70000718515 /* StartViewController.swift in Sources */,
 				7DFA4BF8274BEF0100718515 /* NavigationRouter.swift in Sources */,
 				7DFA4C01274BF2F900718515 /* Coordinator.swift in Sources */,
+				7DFA4C08274BF46100718515 /* DependenciesImpl.swift in Sources */,
 				7DFA4BF2274BED2800718515 /* View.swift in Sources */,
+				7DFA4C1D274BF5F000718515 /* SignUpModule.swift in Sources */,
 				7DFA4BDA274BEB5A00718515 /* ViewController.swift in Sources */,
 				7DFA4BF4274BED3500718515 /* Interactor.swift in Sources */,
 				7DFA4BFD274BF2B100718515 /* Flow.swift in Sources */,
+				7DFA4C22274BF61B00718515 /* SignInModule.swift in Sources */,
+				7DFA4C29274BF9CC00718515 /* Interactor.swift in Sources */,
 				7DFA4BD6274BEB5A00718515 /* AppDelegate.swift in Sources */,
 				7DFA4BD8274BEB5A00718515 /* SceneDelegate.swift in Sources */,
+				7DFA4C34274BFD7F00718515 /* MainFlow.swift in Sources */,
+				7DFA4C36274BFD9600718515 /* MainFlowNavigationController.swift in Sources */,
 				7DFA4BFF274BF2D300718515 /* FlowHolder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,6 +666,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7DFA4C25274BF7A200718515 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7DFA4C26274BF7A200718515 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7DFA4C25274BF7A200718515 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7DFA4BCA274BEB5900718515 /* Project object */;
 }
