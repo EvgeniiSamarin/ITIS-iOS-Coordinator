@@ -9,8 +9,12 @@ import Foundation
 
 class Presenter<V: View,I: Interactor> {
 
+    // MARK: - Instance Properties
+
     weak var view: V?
     var interactor: I
+
+    // MARK: - Initializer
 
     init(view: V, interactor: I) {
         self.view = view

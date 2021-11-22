@@ -9,14 +9,20 @@ import UIKit
 
 struct NavigationRouter {
 
+    // MARK: - Instance Properties
+
     unowned private let viewController: UIViewController
     private var navigationController: UINavigationController? {
         return viewController.navigationController
     }
 
+    // MARK: - Initializer
+
     init(viewController: UIViewController) {
         self.viewController = viewController
     }
+
+    // MARK: - Instance Methods
 
     func push(animated: Bool, _ make: @escaping () -> UIViewController) -> (() -> ()) {
         return {
@@ -33,6 +39,8 @@ struct NavigationRouter {
     }
 }
 
+// MARK: - Extension
+
 extension NavigationRouter {
 
     func push(_ make: @escaping () -> UIViewController) -> (() -> ()) {
@@ -43,6 +51,8 @@ extension NavigationRouter {
         return self.push(animated: true, make)
     }
 }
+
+// MARK: - Extension
 
 extension UIViewController {
 

@@ -9,6 +9,8 @@ import Foundation
 
 class MainFlowNavigationController: FlowNavigationController {
 
+    // MARK: - Lifecycle Methods
+
     override func viewDidLoad() {
         super.viewDidLoad()
     }

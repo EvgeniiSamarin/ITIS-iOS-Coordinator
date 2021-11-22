@@ -9,6 +9,8 @@ import Foundation
 
 protocol View: AnyObject {
 
+    // MARK: - Instance Properties
+
     associatedtype PresenterType
     var presenter: PresenterType? { get set }
 }

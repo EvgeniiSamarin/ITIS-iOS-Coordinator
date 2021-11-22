@@ -8,6 +8,9 @@
 import Foundation
 
 protocol Dependencies {
+
+    // MARK: - Instance Properties
+
     var moduleFactory: ModuleFactory { get }
     var flowFactory: FlowFactory { get }
 }

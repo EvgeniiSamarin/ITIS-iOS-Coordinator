@@ -9,6 +9,8 @@ import Foundation
 
 protocol Interactor: AnyObject {
 
+    // MARK: - Instance Properties
+
     associatedtype Delegate
     var delegate: Delegate? { get set}
 }

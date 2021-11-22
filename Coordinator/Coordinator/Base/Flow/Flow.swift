@@ -9,5 +9,7 @@ import Foundation
 
 protocol Flow: AnyObject {
 
+    // MARK: - Instance Methods
+
     func start()
 }

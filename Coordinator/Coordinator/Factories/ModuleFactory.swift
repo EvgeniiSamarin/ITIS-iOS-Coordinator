@@ -9,8 +9,11 @@ import Foundation
 import UIKit
 
 protocol ModuleFactory {
+
+    // MARK: - Instance Methods
+
     func startApp() -> (UIViewController, StartModule)
 //    func joke() -> (UIViewController, JokeModule)
-//    func signUp() -> (UIViewController, SignUpModule)
-//    func signIn() -> (UIViewController, SignInModule)
+    func signUp() -> (UIViewController, SignUpModule)
+    func signIn() -> (UIViewController, SignInModule)
 }

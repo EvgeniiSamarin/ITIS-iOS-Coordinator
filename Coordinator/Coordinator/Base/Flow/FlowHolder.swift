@@ -8,5 +8,8 @@
 import Foundation
 
 protocol FlowHolder: AnyObject {
+
+    // MARK: - Instance Properties
+
     var flow: Flow? { get set }
 }
