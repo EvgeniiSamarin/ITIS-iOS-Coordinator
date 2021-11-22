@@ -16,6 +16,10 @@
 		7DFA4BF4274BED3500718515 /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFA4BF3274BED3500718515 /* Interactor.swift */; };
 		7DFA4BF6274BED4200718515 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFA4BF5274BED4100718515 /* Presenter.swift */; };
 		7DFA4BF8274BEF0100718515 /* NavigationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFA4BF7274BEF0100718515 /* NavigationRouter.swift */; };
+		7DFA4BFD274BF2B100718515 /* Flow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFA4BFC274BF2B100718515 /* Flow.swift */; };
+		7DFA4BFF274BF2D300718515 /* FlowHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFA4BFE274BF2D300718515 /* FlowHolder.swift */; };
+		7DFA4C01274BF2F900718515 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFA4C00274BF2F900718515 /* Coordinator.swift */; };
+		7DFA4C03274BF35A00718515 /* FlownavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFA4C02274BF35A00718515 /* FlownavigationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +34,10 @@
 		7DFA4BF3274BED3500718515 /* Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interactor.swift; sourceTree = "<group>"; };
 		7DFA4BF5274BED4100718515 /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
 		7DFA4BF7274BEF0100718515 /* NavigationRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationRouter.swift; sourceTree = "<group>"; };
+		7DFA4BFC274BF2B100718515 /* Flow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flow.swift; sourceTree = "<group>"; };
+		7DFA4BFE274BF2D300718515 /* FlowHolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowHolder.swift; sourceTree = "<group>"; };
+		7DFA4C00274BF2F900718515 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		7DFA4C02274BF35A00718515 /* FlownavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlownavigationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,8 +112,20 @@
 		7DFA4BF0274BEC7000718515 /* Flow */ = {
 			isa = PBXGroup;
 			children = (
+				7DFA4BFB274BF29A00718515 /* Views */,
+				7DFA4BFC274BF2B100718515 /* Flow.swift */,
+				7DFA4BFE274BF2D300718515 /* FlowHolder.swift */,
+				7DFA4C00274BF2F900718515 /* Coordinator.swift */,
 			);
 			path = Flow;
+			sourceTree = "<group>";
+		};
+		7DFA4BFB274BF29A00718515 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7DFA4C02274BF35A00718515 /* FlownavigationController.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,12 +199,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				7DFA4BF6274BED4200718515 /* Presenter.swift in Sources */,
+				7DFA4C03274BF35A00718515 /* FlownavigationController.swift in Sources */,
 				7DFA4BF8274BEF0100718515 /* NavigationRouter.swift in Sources */,
+				7DFA4C01274BF2F900718515 /* Coordinator.swift in Sources */,
 				7DFA4BF2274BED2800718515 /* View.swift in Sources */,
 				7DFA4BDA274BEB5A00718515 /* ViewController.swift in Sources */,
 				7DFA4BF4274BED3500718515 /* Interactor.swift in Sources */,
+				7DFA4BFD274BF2B100718515 /* Flow.swift in Sources */,
 				7DFA4BD6274BEB5A00718515 /* AppDelegate.swift in Sources */,
 				7DFA4BD8274BEB5A00718515 /* SceneDelegate.swift in Sources */,
+				7DFA4BFF274BF2D300718515 /* FlowHolder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
